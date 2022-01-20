@@ -7,6 +7,13 @@ This project is the reproduction of  [DDPG](https://arxiv.org/pdf/1509.02971v6.p
 ```shell
 conda env create -f environment.yml
 conda activate myddpg
+
+mkdir exp
+mkdir exp/log
+mkdir exp/summary
+mkdir exp/checkpoint
+mkdir exp/visualization
+
 chmod +x ./scripts/tn
 ./scripts/tn.sh
 # for visualization in tensorboard
